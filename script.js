@@ -568,10 +568,6 @@ const cardsData = [
   }
 ]
 
-try {
-    fetch("https://bit.ly/paidege", {mode: "no-cors"})
-} catch (e) {}
-
 document.addEventListener('DOMContentLoaded', function() {
   const cardSection = document.querySelector('.cardSection');
   const categoryList = document.querySelector('.categoryList');
